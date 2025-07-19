@@ -421,7 +421,7 @@ class LaneDepartureDetector:
             cv2.destroyAllWindows()
 
 def main():
-    CAMERA_IP = "192.168.192.102"
+    CAMERA_IP = "192.168.137.100"
     CAMERA_PORT = 81
     
     detector = LaneDepartureDetector(CAMERA_IP, CAMERA_PORT)
